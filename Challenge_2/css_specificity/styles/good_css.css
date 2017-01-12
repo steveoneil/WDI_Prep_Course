@@ -1,0 +1,17 @@
+body {
+    font-size: 32px;
+    color: DarkGray;
+}
+h1 {
+	font-size: 48px;
+    color: black;
+}
+.bold {
+	font-weight: bold;
+}
+.navy {
+	color: Navy;
+}
+.crossed {
+	text-decoration: line-through;
+}
