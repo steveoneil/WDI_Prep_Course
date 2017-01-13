@@ -1,0 +1,22 @@
+p {
+    font-family: sans-serif;
+    font-size: 90%;
+    line-height: 1.4em;
+    background: #aaaaaa;
+    color: white;
+    width: 200px;
+    padding: 10px 20px;
+    border: white dotted 2px;
+    margin: 30px;
+}
+.container {
+    width: 180px;
+}
+.background_control {
+    padding: 10px;
+    background: lightgrey;
+    margin: 0px 0px 16px 0px;
+}
+.border_control {
+    border: lightgrey solid 10px;
+}
