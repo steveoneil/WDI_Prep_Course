@@ -1,0 +1,21 @@
+body {
+    width: 510px;
+}
+div {
+    height: 150px;
+    width: 150px;
+    background: red;
+    margin: 0px 20px 20px 0px;
+    vertical-align: top;
+    display: inline-block;
+}
+.float_left {
+    float: left;
+}
+.position_static {
+    clear: left;
+    position: static;
+}
+.position_relative {
+    position: relative;
+}
