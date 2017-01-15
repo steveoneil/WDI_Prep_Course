@@ -14,6 +14,25 @@ for (i=1; i<=triangleSize; i++) {
 }
 
 // EXERCISE #3 - The fizz buzz challenge
+var startNum = 1;
+var endNum = 100;
+for (i=startNum; i<=endNum; i++) {
+    if (i % 3 == 0){
+        if (i % 5 == 0){
+            console.log("fizzbuzz");
+        }
+        else {
+            console.log("buzz");
+        }
+    }
+    else if (i % 5 == 0){
+            console.log("fizz");
+        }
+        else {
+            console.log(i);
+        }
+}
+
 
 // EXERCISE #4 - Creates a string that represents an 8×8 grid
 
