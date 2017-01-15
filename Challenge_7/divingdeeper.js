@@ -2,7 +2,7 @@
 //magic eightball w/ switch
 
 var numberofreplys = 4;
-var reply = 'I have no intelligent reply';
+
 function ask(){
     var choice = Math.floor(Math.random() * numberofreplys +1);
     switch (choice){
