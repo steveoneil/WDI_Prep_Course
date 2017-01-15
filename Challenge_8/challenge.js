@@ -33,18 +33,22 @@ for (i=startNum; i<=endNum; i++) {
         }
 }
 
-
 // EXERCISE #4 - Creates a string that represents an 8×8 grid
-
-/*
-var positions = [3,6];
-var sum = 0;
-for(var i=0; i<=positions.length; i++){
-    for(var j=0; j<=numbers.length; j++){
-        if (j == positions[i]) {
-            sum = sum + numbers[j];
+var gridSize = 8;
+var line = "";
+var squareToggle = 0;
+for (i=1; i<=gridSize; i++){
+    for (j=1; j<=gridSize; j++){
+        if(squareToggle % 2 == 0){
+            line = line + "#";
+            squareToggle++;
+        }
+        else {
+            line = line + " ";
+            squareToggle++;
         }
     }
+    line = line + "\n";
+    squareToggle++;
 }
-console.log(sum);
-*/
+console.log(line);
