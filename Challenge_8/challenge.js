@@ -31,6 +31,7 @@ for (i=startNum; i<=endNum; i++) {
         else {
             console.log(i);
         }
+        
 }
 
 // EXERCISE #4 - Creates a string that represents an 8×8 grid
